@@ -1,0 +1,42 @@
+{
+  "name": "express-fileupload",
+  "version": "1.0.0",
+  "author": "Richard Girges <richardgirges@gmail.com>",
+  "description": "Simple express file upload middleware that wraps around Busboy",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "busboy": "^0.2.14",
+    "md5": "^2.2.1",
+    "streamifier": "^0.1.1",
+    "python-shell": "1.0.6"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "express",
+    "file-upload",
+    "upload",
+    "forms",
+    "multipart",
+    "files",
+    "busboy",
+    "middleware"
+  ],
+  "license": "MIT",
+  "repository": "richardgirges/express-fileupload",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.6.0",
+    "express": "^4.16.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2",
+    "supertest": "^3.3.0",
+    "python-shell": "1.0.6"
+  }
+}
