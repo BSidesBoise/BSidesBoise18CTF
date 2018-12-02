@@ -1,1 +1,2 @@
-# BSidesBoise18CTF
+# BSides Boise 2018 CTF
+
